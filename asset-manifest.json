@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Chatbot-TrueGradientAI/static/js/main.155919ac.js",
+    "main.js": "/Chatbot-TrueGradientAI/static/js/main.a2a2286d.js",
     "index.html": "/Chatbot-TrueGradientAI/index.html",
-    "main.155919ac.js.map": "/Chatbot-TrueGradientAI/static/js/main.155919ac.js.map"
+    "main.a2a2286d.js.map": "/Chatbot-TrueGradientAI/static/js/main.a2a2286d.js.map"
   },
   "entrypoints": [
-    "static/js/main.155919ac.js"
+    "static/js/main.a2a2286d.js"
   ]
 }
