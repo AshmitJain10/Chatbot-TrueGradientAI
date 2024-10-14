@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+Chatbot Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Table of Contents
+Overview
+Features
+Technologies Used
+Installation
+Usage
+API Endpoints
+Deployment
+Contributing
+License
+Overview
+Welcome to the Chatbot Application! This is a full-stack chatbot built using React, Node.js, and MongoDB. It allows users to ask questions and receive responses based on predefined answers. Users can save their queries and responses, which can be reviewed later in the Admin Panel.
 
-In the project directory, you can run:
+Features
+Interactive Chatbot Interface: Users can ask questions and receive instant responses.
+Save Responses: Users can save their queries and responses for future reference.
+Admin Panel: A dedicated section for viewing all saved responses.
+Simulated API: A mock API to provide responses based on user queries.
+Responsive Design: The application is designed to be responsive and user-friendly.
+Technologies Used
+Frontend: React, Material UI
+Backend: Node.js, Express.js
+Database: MongoDB
+State Management: Redux
+Deployment: GitHub Pages (Frontend), Render (Backend)
+Installation
+Prerequisites
+Node.js (v14 or later)
+npm
+Clone the Repository
+bash
+Copy code
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+Install Dependencies
+For the frontend:
 
-### `npm start`
+bash
+Copy code
+cd frontend
+npm install
+For the backend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+bash
+Copy code
+cd backend
+npm install
+Usage
+Running the Backend
+Navigate to the backend directory:
+bash
+Copy code
+cd backend
+Start the server:
+bash
+Copy code
+node server.js
+Your backend will be running on http://localhost:5000.
+Running the Frontend
+Navigate to the frontend directory:
+bash
+Copy code
+cd frontend
+Start the React app:
+bash
+Copy code
+npm start
+Your frontend will be accessible at http://localhost:3000.
+Interacting with the Chatbot
+Open the frontend URL in your browser.
+Ask questions in the chatbot interface.
+Save responses to view later in the Admin Panel.
+API Endpoints
+Mock API
+POST /api/mock/query
+Description: Sends a user query and retrieves the corresponding response.
+Request Body:
+json
+Copy code
+{
+  "query": "Who is Lionel Messi?"
+}
+Response:
+json
+Copy code
+{
+  "summary": "Lionel Messi is a footballer who plays for Argentina and Inter Miami.",
+  "result_text": "He is widely regarded as one of the greatest football players of all time."
+}
+Deployment
+Frontend: Deployed on GitHub Pages. Access it at https://ashmitjain10.github.io/Chatbot-TrueGradientAI/.
+Backend: Deployed on Render. Access it at https://chatbot-truegradientai.onrender.com.
+Contributing
+Contributions are welcome! If you have suggestions for improvements or want to contribute, please fork the repository and create a pull request.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Fork the repo
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a pull request
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
